@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color:  #F6F3EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    width: 1048px;
+    height: 391px;
+    background-color:  #FFFFFC;
+    display: flex;
+    .left{
+        width: 461px;
+        height: 391px;
+        border-right: 0;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border: 1px solid #BBD0FF;
+        padding: 50px;         
+    h1{
+        font-family: Barlow;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #1576D6;
+        margin-bottom: 35px;
+    }
+    label{
+        font-family: Barlow;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        color: #25292C;
+       
+    }
+        input{
+            width: 100%;
+        border-radius: 12px;
+        border-width: 1px;
+        padding-top: 10px;
+        padding-right: 16px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        border: 1px solid #6C757D80;
+        color: #6C757D80;
+        margin-bottom: 16px;
+        margin-top: 12px;
+        }
+        button{
+            width: 100%;
+            border-radius: 12px;
+            padding-top: 12px;
+            padding-right: 16px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            font-family: Barlow;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            text-transform: capitalize;
+          background-color: #25292C;
+          color:#FFFFFC;
+          margin-bottom: 16px;
+        }
+        p{
+            width: 100;
+            border-radius: 12px;
+            border-width: 1px;
+            padding-top: 12px;
+            padding-right: 16px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            border: 1px solid #F4C123;
+            font-family: Barlow;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+
+    }
+    img{
+    width: 587px;
+    height: 391px;
+    border-radius:0 8px 8px 0;
+    object-fit: cover;
+    }
+}
+
+
